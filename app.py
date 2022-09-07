@@ -18,8 +18,7 @@ def predict():
 
     headers = {
         "Content-type": "application/json",
-        "Allow-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Origin": "https://car-damage-detector.vercel.app",
         "Access-Control-Allow-Methods": "POST, GET, PUT, DELETE, OPTIONS",
         "Access-Control-Allow-Headers": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With",
     }
