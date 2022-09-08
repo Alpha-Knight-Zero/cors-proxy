@@ -26,8 +26,7 @@ def predict():
     response = requests.request("POST", url, headers=headers, data=data)
 
     res_json = response.json()
-    print(res_json.headers)
-    print(res_json.headers)
+    print(res_json)
     return res_json
 
 
